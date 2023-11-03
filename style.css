@@ -1,0 +1,40 @@
+.fundo {
+	background-image: url(./OIG.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: bottom;
+
+	display: block;
+	height: 200vh;
+	width: 100vw;
+
+	-webkit-filter: blur(15px);
+	-moz-filter: blur(15px);
+	-o-filter: blur(15px);
+	-ms-filter: blur(15px);
+	filter: blur(15px);
+
+	position: fixed;
+	top: -10%;
+	z-index: -2;
+}
+
+main {
+	top: 12vh;
+}
+
+h1 {
+	font-size: 4rem;
+}
+
+h2 {
+	font-size: 1.5rem;
+}
+
+.container {
+	background-color: rgba(125, 125, 125, 0.3);
+}
+
+.descricao {
+	font-size: 1.2rem;
+}
